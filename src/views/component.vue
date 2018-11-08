@@ -10,7 +10,7 @@
         </div>
         <div class="wrapper">
             <el-scrollbar class="wrapper-component">
-                <div v-for="(i) in 200">i {{ i }}</div>
+                <div v-for="(i) in 200" :key="i">i {{ i }}</div>
             </el-scrollbar>
         </div>
     </div>
